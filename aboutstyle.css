@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet');
+
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', serif ;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: url(aboutbg.jpg) center;
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 50px;
+}
+
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: black;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 6px 15px;
+    transition: .5s;
+}
+
+.navigation a:hover, .navigation a.active{
+    color: #142b79;
+    background-color: white;
+    border-radius:30px;
+}
+
+.navigation a span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 30px;
+    z-index: -1;
+    transform: scale(0);
+    opacity: 0;
+    transition: .5s;
+}
+
+.navigation a:hover span, .navigation a.active span{
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    margin-top: 200px;
+}
+
+.row {
+    width: 100%;
+    padding: 50px 100px; 
+}
+
+.image-section {
+    width: 30%;
+    float: left;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    width: 60%;
+    float: left;
+    margin-left: 40px;
+}
+
+.content h1 {
+    font-size: 90px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.content h2 {
+    font-size: 30px;
+    font-family: Sans-serif;
+    color: #003cff;
+    margin-top: 25px;
+}
+
+.content p {
+    font-size: 20px;
+    font-family: serif;
+    margin-top: 5px;
+    line-height: 1.5;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Homepage </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" class="logo">
+        <nav class="navigation">
+            <a href="index.html" class="active">Home<span></span></a>
+            <a href="about.html">About<span></span></a>
+            <a href="theme.html">Theme<span></span></a>
+            <a href="members.html">Members<span></span></a>
+        </nav>
+    </header>
+    <section class="parallax">
+        <img src="light.png" id="light">
+        <img src="sparkle.png" id="sprakle">
+        <img src="back-cloud3.png" id="back-cloud3">
+        <img src="back-cloud2.png" id="back-cloud2">
+        <img src="back-cloud1.png" id="back-cloud1">
+        <img src="front-cloud1.png" id="front-cloud1">
+        <img src="front-cloud2.png" id="front-cloud2">
+        <img src="highlight.png" id="highlight">
+        <h2 id="text">Ad Astra Abyssoque!</h2>
+        <img src="flower.png" id="flower">
+        <img src="stars.png" id="stars">
+        <img src="people.png" id="people">
+        <img src="petals.png" id="petals">
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="start_btn"><button>Enter Teyvat</button></div>
+    <div class="info_box">
+        <div class="info-title"><span>Celestia’s warning before starting..</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>15 seconds</span> per question.</div>
+            <div class="info">2. Double check, your selection cannot be undone!</div>
+            <div class="info">3. Answer within the given time.</div>
+            <div class="info">4. Finish the journey before exiting.</div>
+            <div class="info">5. There are points each correct answer, Goodluck!</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Journey</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+    <div class="quiz_box">
+        <header>
+            <div class="title">Genshin Trivia</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">Next Que</button>
+        </footer>
+    </div>
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed your Journey!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">End Journey</button>
+        </div>
+    </div>
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+</html>
+
