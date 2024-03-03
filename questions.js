@@ -89,8 +89,8 @@ let questions = [
   },
     {
     numb: 9,
-    question: "What reaction happens if you attack with Dendro and Hydro?",
-    answer: "Bloom",
+    question: "What reaction happens if you attack with Dendro and Pyro?",
+    answer: "Burn",
     options: [
       "Bloom",
       "Growth",
