@@ -17,7 +17,7 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background: url(aboutbg.jpg) center;
+    background: url(aboutbg.jpg) bottom;
 }
 
 .logo{
